@@ -8,7 +8,7 @@ int main(){
 loop: 
     printf("Enter 1 integer: ");
     scanf("%i", &scores[i]);
-    if(i < 6) {    
+    if(i < 5) {    
         i = i + 1;
         goto loop; 
     }
